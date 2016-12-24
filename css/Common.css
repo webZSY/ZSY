@@ -1,0 +1,156 @@
+@charset "utf-8";
+
+/*通配符：控制整个页面的空隙*/
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+
+/*初始化*/
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+	font-size:62.5%;
+    background: url(../img/bg.jpg) center;
+	background-size: cover;
+	font-family: "Microsoft YaHei", "微软雅黑";
+	color:#000;
+}
+
+div,
+span,
+a,
+img,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+dl,
+dt,
+dd,
+strong,
+em,
+table,
+tr,
+td,
+input,
+form,
+p,
+b {
+	padding: 0;
+	margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: 12px;
+	font-weight: normal;
+}
+
+/*去点*/
+ul li{
+	list-style: none;
+}
+
+/*链接样式*/
+
+a {
+	font-weight: normal;
+	text-decoration: none;
+	color: #000000;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #000000;
+}
+
+
+/*通用的*/
+
+.fr {
+	float: right;
+}
+
+.fl {
+	float: left;
+}
+
+.fn {
+	float: none;
+}
+
+.f12 {
+	font-size: 12px;
+}
+
+.f14 {
+	font-size: 14px;
+}
+
+.of {
+	overflow: hidden;
+}
+/*清楚浮动*/
+.cb {
+	clear: both;
+}
+
+.mc{
+	margin: 0 auto;
+}
+
+.db{
+	display: block;
+}
+
+
+
+
+.vam {
+	vertical-align: middle
+}
+
+.mt15 {
+	margin-top: 15px;
+}
+
+.mx15 {
+	margin-bottom: 15px;
+}
+
+.ml15 {
+	margin-left: 15px;
+}
+
+.mr15 {
+	margin-right: 15px;
+}
+
+.mt20 {
+	margin-top: 20px;
+}
+
+.mx20 {
+	margin-bottom: 20px;
+}
+
+.ml20 {
+	margin-left: 20px;
+}
+
+.mr20 {
+	margin-right: 20px;
+}
+
